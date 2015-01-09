@@ -3,30 +3,111 @@
 
 <body>
 
-  <h1>
+  <div id="heading">
+  <h1 class="head">
     Welcome to PublicStaticCode!
   </h1>
   
-  <p>
+  </div>
+  
+  <div id="main">
+  
+  <p class="mainp1">
      My name is Jake, and this is my website for all my creations, may it be coding projects, mods, or adventure maps!
   </p>
+  
+  </div>
+  
+  <div id="sidebar">
+  
+  <p class="ph">
+  
+  Projects:
+  
+  </p>
+  
+  <ul class="pl">
+  <!-- Project List -->
+  <li><a href="url">Minecraft Adventure Maps</a></li>
+  <li><a href="url">Java Creations</a></li>
+  
+  </ul>
+  
+  <p class="ah">
+  
+  Announcements:
+  
+  </p>
+  
+  <ul class="al">
+  <!-- Announcements List -->
+  <li>First Adventure Map is almost done!</li>
+  
+  </ul>
+  
+  </div>
   
 </body>
 
 <style>
-
   body{
     background-color: #00C7CC;
   }
   
-  h1{
-    text-align: center;
-    background-color: #FFFFFF;
+  .head{
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
-  p{
+  #heading{
+    background-color: #FFFFFF;
     text-align: center;
   }
+  
+  #main{
+	background-color: #FFFFFF;
+	height: 100%;
+	width: 79%;
+	float: left;
+  }
+  
+  #sidebar{
+    width: 20%;
+	float: right;
+	background-color: #FFFFFF;
+	height: 100%;
+  }
+  
+  .ph{
+    text-align: center;
+  }
+  
+  .ah{
+    text-align: center;
+  }
+  
+  ul.pl {
+    list-style-type: inherit;
+  }
+
+  ul.al {
+    list-style-type: square;
+  }
+  
+  .mainp1{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  /* unvisited link */
+a:link {
+    color: #00C7CC;
+}
+
+/* visited link */
+a:visited {
+    color: #488627;
+}
   
 </style>
 
