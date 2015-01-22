@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <div id="heading">
+  
+  <h1 class="head">
+    Welcome to Jacob's Online Computer Shop!
+  </h1>
+  
+  </div>
+  
+  <div id="navbar">
+  
+  <p class="navcont">
+    <a href="jacobaccio.github.io">Main Site</a>
+  </p>
+  
+  </div>
+  
+  <div id="main">
+  
+  <p class="mainp1">
+     Here you can customize your comouter, and then you can rent it from us or buy it directly from the website!
+  </p>
+  
+  </div>
+  
+  <div id="sidebar">
+  
+  </div>
+  
+</body>
+
+<style>
+  body{
+    background-color: #00C7CC;
+  }
+  
+  #heading{
+    background-color: #FFFFFF;
+  }
+  
+  #navbar{
+    background-color: #FFFFFF;
+  }
+  
+  #main{
+    background-color: #FFFFFF;
+  }
+  
+  /* unvisited link */
+  a:link {
+    color: #00C7CC;
+  }
+
+  /* visited link */
+  a:visited {
+    color: #488627;
+  }
+  
+</style>
+
+</html>
