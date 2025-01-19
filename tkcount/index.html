@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teamkill Counter</title>
+    <style>
+      body {
+        background-image: url("https://dims.apnews.com/dims4/default/b3f6bda/2147483647/strip/false/crop/6000x4000+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F12%2Fec%2Fa9a679781127342fedb0283bc693%2F2975780cdffb47869a8c64a8dc4bb601"); /* Dark background */
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #d4d4d4; /* Light gray text */
+        font-family: "Arial", sans-serif; /* Clean, sans-serif font */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        color: #720f75; /* Light silver color */
+        text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+      }
+
+      .counter-container {
+        display: flex;
+        justify-content: space-around;
+        gap: 1.5rem;
+        width: 100%;
+        max-width: 1200px;
+      }
+
+      .counter {
+        background: #1c1c1c; /* Slightly lighter than the background */
+        border: 2px solid #555; /* Subtle border for separation */
+        border-radius: 8px;
+        padding: 1rem;
+        flex: 1;
+        max-width: 150px;
+        text-align: center;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+      }
+
+      .counter h2 {
+        font-size: 2.5rem;
+        margin: 0;
+        color: #804280; /* Green to match Tarkov UI themes */
+        text-shadow: 1px 1px 2px black;
+      }
+
+      .counter p {
+        font-size: 1.2rem;
+        margin: 0.5rem 0 0;
+        color: #e0e0e0; /* Subheader color */
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      button {
+        margin-top: 0.5rem;
+        padding: 0.5rem 1rem;
+        background-color: #333;
+        color: #fff;
+        border: 1px solid #555;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background-color 0.2s;
+      }
+
+      button:hover {
+        background-color: #444;
+      }
+
+      button:active {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Teamkill Counter</h1>
+    <div class="counter-container">
+      <div class="counter" id="rey">
+        <h2>1</h2>
+        <p>Rey</p>
+      </div>
+      <div class="counter" id="pasty">
+        <h2>0</h2>
+        <p>Pasty</p>
+      </div>
+      <div class="counter" id="checkpoint">
+        <h2>2</h2>
+        <p>Checkpoint</p>
+      </div>
+      <div class="counter" id="billy">
+        <h2>1</h2>
+        <p>Billy</p>
+      </div>
+      <div class="counter" id="christian">
+        <h2>2</h2>
+        <p>Christian</p>
+      </div>
+      <div class="counter" id="zach">
+        <h2>0</h2>
+        <p>Zach</p>
+      </div>
+    </div>
+  </body>
+</html>
